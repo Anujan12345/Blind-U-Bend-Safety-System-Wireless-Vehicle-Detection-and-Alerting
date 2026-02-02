@@ -9,7 +9,11 @@
 
 ## 📌 Project Overview
 
-U-bends on roads—especially in hilly or mountainous areas—pose significant safety risks due to **limited visibility and sharp curves**. Drivers are often unable to see oncoming vehicles in time, leading to accidents and traffic congestion.
+<p align="center">
+  <img src="images/U_band_road.jpg" alt="U_band_road" width="70%">
+</p>
+
+U-bends on roads, especially in hilly or mountainous areas, pose significant safety risks due to **limited visibility and sharp curves**. Drivers are often unable to see oncoming vehicles in time, leading to accidents and traffic congestion.
 
 The **Real-Time Vehicle Detection and Alert System for U-Bends** is designed to **detect approaching vehicles from both directions** and provide **instant visual alerts** to drivers. By delivering real-time warnings, the system helps drivers take preventive actions, thereby improving road safety and traffic flow.
 
@@ -29,6 +33,10 @@ This project was developed as part of **EE6304 – Embedded System Design** at t
 ---
 
 ## ⚙️ System Architecture
+
+<p align="center">
+  <img src="images/Block Diagram.jpg" alt="System Block Diagram" width="75%">
+</p>
 
 The system consists of **two identical units**, installed at **both ends of a U-bend**.
 
@@ -81,6 +89,10 @@ The **NRF24L01** module was selected because it:
 
 ## 🧠 Firmware Logic
 
+<p align="center">
+  <img src="images/Flow chart.jpg" alt="Flow chart" width="75%">
+</p>
+
 - Continuous distance monitoring using ultrasonic sensors  
 - Threshold-based decision making  
 - Real-time wireless data transmission  
@@ -92,6 +104,10 @@ The firmware logic was implemented using **flowchart-based control** and tested 
 
 ## 🧪 Simulation & Testing
 
+<p align="center">
+  <img src="images/Simulation_diagram.jpg" alt="Simulation Diagram" width="75%">
+</p>
+
 - Complete system simulated using **Proteus**
 - Potentiometers used to emulate varying vehicle distances
 - Wireless communication verified up to **60–70 meters**
@@ -100,6 +116,10 @@ The firmware logic was implemented using **flowchart-based control** and tested 
 ---
 
 ## 📦 Final Prototype
+
+<p align="center">
+  <img src="images/Final_product.jpg" alt="Final Hardware Prototype" width="75%">
+</p>
 
 The final system includes:
 - Fully assembled and enclosed hardware modules  
@@ -111,16 +131,3 @@ The prototype demonstrated **reliable real-time vehicle detection and alerting**
 
 ---
 
-## 📁 Repository Structure 
-
-```text
-├── code/
-│   ├── transmitter/
-│   └── receiver/
-├── simulation/
-│   └── proteus_files/
-├── images/
-│   └── final_product.jpg
-├── report/
-│   └── Group_02_Real-time_Vehicle_Detection_and_Alert_System.pdf
-└── README.md
