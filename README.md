@@ -69,13 +69,13 @@ The system consists of **two identical units**, installed at **both ends of a U-
 ## 📡 Wireless Communication
 
 Initially, Bluetooth modules were tested but later replaced due to:
-- ❌ Limited communication range  
-- ❌ Lack of reliable full-duplex communication  
+- Limited communication range  
+- Lack of reliable full-duplex communication  
 
 The **NRF24L01** module was selected because it:
-- ✅ Supports full-duplex communication  
-- ✅ Provides longer and stable wireless range  
-- ✅ Consumes low power  
+-  Supports full-duplex communication  
+-  Provides longer and stable wireless range  
+-  Consumes low power  
 
 ---
 
